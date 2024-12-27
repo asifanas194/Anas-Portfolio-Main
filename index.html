@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anas - Personal Portfolio</title>
+
+    <link rel="shortcut icon" href="./assets/images/avatar-1.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <aside class="sidebar" data-sidebar>
+            <div class="sidebar-info">
+                <figure class="avatar-box">
+                    <img src="./assets/images/file.png" alt="Anas Asif" width="80">
+                </figure>
+                <div class="info-content">
+                    <h1 class="name" title="Anam Shahzad">Anas Asif</h1>
+                    <p class="title">.NET developer</p>
+                </div>
+
+                <button class="info_more-btn" data-sidebar-btn>
+                    <span>Show Contacts</span>
+                    <ion-icon name="chevron-down"></ion-icon>
+                </button>
+
+            </div>
+            <div class="sidebar-info_more">
+                <div class="separator"></div>
+                <ul class="contacts-list">
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+                            <a href="mailto:asifanas194@gmail.com"
+                                class="contact-link">asifanas194@gmail.com</a>
+
+                            <p class="contact-title">Phone No</p>
+                                <a href="phoneno:03142458194"
+                                class="contact-link">03142458194</a>
+                        </div>
+                    </li>
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="calendar-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Birthday</p>
+                            <time datetime="2004-12-19">Dec 19, 2004</time>
+                        </div>
+                    </li>
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Location</p>
+                            <address>Karachi, Pakistan</address>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="separator"></div>
+                <ul class="social-list">
+                    <li class="social-item">
+                        <a href="mailto:asifanas194@gmail.com" class="social-link">
+                            <ion-icon class="socials-icons" name="mail-outline"></ion-icon>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="https://www.linkedin.com/in/anas-asif-50137024a/" class="social-link">
+                            <ion-icon class="socials-icons" name="logo-linkedin"></ion-icon>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="https://github.com/asifanas194" class="social-link">
+                            <ion-icon class="socials-icons" name="logo-github"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+
+        <div class="main-content">
+            <nav class="navbar">
+                <ul class="navbar-list">
+                    <li class="navbar-item">
+                        <button class="navbar-link  active" data-nav-link>About</button>
+                    </li>
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Resume</button>
+                    </li>
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Portfolio</button>
+                    </li>
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Contact</button>
+                    </li>
+                </ul>
+
+            </nav>
+
+            <article class="about  active" data-page="about">
+                <header>
+                    <h2 class="h2 article-title">About me</h2>
+                </header>
+                <section class="about-text">
+                    <p>
+                        Hi! My name is Anas Asif, and I am passionate about technology, software development, and digital solutions. Currently, I am pursuing my studies in Software Engineering, where I am gaining both theoretical knowledge and practical experience.
+
+                        My primary focus is on programming and software development, specializing in the use of DevExpress controls and C# to build powerful applications. My goal is to continually improve my skills and learn new technologies and tools, enabling me to create innovative and efficient solutions for my clients and users.
+                        
+                        Balancing my studies and work, I consistently apply new ideas and solutions to my projects, which helps me evolve both my industry knowledge and technical expertise.
+                        
+                        If you need any technical assistance or face challenges in software development, feel free to reach out to us. Our team is always ready to assist you!.
+                    </p>
+                </section>
+
+                <section class="service">
+                    <h3 class="h3 service-title">What i'm doing</h3>
+                    <ul class="service-list">
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="./assets/images/database.png" alt="design icon" width="40">
+                            </div>
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">SQL</h4>
+                            
+                                <p class="service-item-text">
+                                    We offer expertise in writing efficient SQL queries, database design, optimization, and data analysis to support scalable and robust applications. Our SQL Server developers have experience working with various database management systems and can help you design and optimize your database for maximum performance.
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+
+                            <div class="service-icon-box">
+                                <img src="./assets/images/coding.png" alt="Web development icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Web Development</h4>
+                            
+                                <p class="service-item-text">
+                                    Development of sites at the basic level using React. We also offer advanced web development services, including custom web applications, e-commerce solutions, and responsive web design, using a range of technologies such as HTML, CSS, JavaScript, and more.
+                                </p>
+                            </div>
+
+                        </li>
+
+                        <li class="service-item">
+
+                            <div class="service-icon-box">
+                                <img src="./assets/images/smartphone.png" alt="mobile app icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">WinForms Application</h4>
+                            
+                                <p class="service-item-text">
+                                    Our WinForms application development services help you create robust, scalable, and user-friendly desktop applications. With expertise in Windows Forms, we deliver high-performance applications that meet your business needs.
+                                </p>
+                            </div>
+
+                        </li>
+
+                        <li class="service-item">
+
+                            <div class="service-icon-box">
+                                <img src="./assets/images/visual-studio.png" alt="camera icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">.NET Development</h4>
+                                <p class="service-item-text">
+                                    Our expert .NET developers create custom software applications using the .NET framework, ensuring fast, secure, and scalable solutions. We provide end-to-end .NET development services, from consulting to deployment, to meet your business needs.
+                                </p>
+                            </div>
+
+                        </li>
+
+                    </ul>
+
+                </section>
+
+                <section class="testimonials">
+
+                    <!-- <h3 class="h3 testimonials-title">Testimonials</h3>
+
+                    <ul class="testimonials-list has-scrollbar">
+
+                        <li class="testimonials-item">
+                            <div class="content-card" data-testimonials-item>
+
+                                <figure class="testimonials-avatar-box">
+                                    <img src="./assets/images/avatar-1.png" alt="Muhammad Hassan Zahid" width="60"
+                                        data-testimonials-avatar>
+                                </figure>
+
+                                <h4 class="h4 testimonials-item-title" data-testimonials-title>Muhammad Hassan Zahid
+                                </h4>
+
+                                <div class="testimonials-text" data-testimonials-text>
+                                    <p>
+                                        Collaborating with Anam on our Final Year Project was an exceptional experience.
+                                        She brought innovative
+                                        ideas, dedication, and technical expertise to the table, ensuring our project
+                                        stood out. Beyond being a
+                                        great teammate, Anam is also a wonderful friend whose support made the journey
+                                        enjoyable and rewarding.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="testimonials-item">
+                            <div class="content-card" data-testimonials-item>
+
+                                <figure class="testimonials-avatar-box">
+                                    <img src="./assets/images/avatar-2.png" alt="Alina Anjum" width="60"
+                                        data-testimonials-avatar>
+                                </figure>
+
+                                <h4 class="h4 testimonials-item-title" data-testimonials-title>Alina Anjum</h4>
+
+                                <div class="testimonials-text" data-testimonials-text>
+                                    <p>
+                                        As Anam's internship lead, I was consistently impressed by her enthusiasm and
+                                        technical prowess. She approached
+                                        every task with diligence and creativity, delivering outstanding results. Her
+                                        proactive nature and collaborative
+                                        mindset made her an excellent addition to the team.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="testimonials-item">
+                            <div class="content-card" data-testimonials-item>
+
+                                <figure class="testimonials-avatar-box">
+                                    <img src="./assets/images/avatar-3.png" alt="Alishba Mirza" width="60"
+                                        data-testimonials-avatar>
+                                </figure>
+
+
+                                <h4 class="h4 testimonials-item-title" data-testimonials-title>Alishba Mirza</h4>
+
+                                <div class="testimonials-text" data-testimonials-text>
+                                    <p>
+                                        It was a pleasure having Anam as part of our team. Her contributions to our
+                                        projects were marked by technical
+                                        excellence and a commitment to high-quality results. Anam's ability to learn
+                                        quickly and adapt to new challenges
+                                        made her a key asset to the organization.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="testimonials-item">
+                            <div class="content-card" data-testimonials-item>
+
+                                <figure class="testimonials-avatar-box">
+                                    <img src="./assets/images/avatar-4.png" alt="Abdul Rab Chatha" width="60"
+                                        data-testimonials-avatar>
+                                </figure>
+
+                                <h4 class="h4 testimonials-item-title" data-testimonials-title>Abdul Rab Chatha</h4>
+
+                                <div class="testimonials-text" data-testimonials-text>
+                                    <p>
+                                        During Anam's internship under my lead, she consistently demonstrated a strong
+                                        work ethic and exceptional
+                                        problem-solving skills. Her ability to grasp complex concepts quickly and
+                                        deliver results with precision was
+                                        truly commendable. Anam is a reliable and driven professional who adds value to
+                                        any team she joins.
+                                    </p>
+                                </div>
+
+
+                            </div>
+                        </li>
+
+                    </ul> -->
+
+                </section>
+
+                <div class="modal-container" data-modal-container>
+
+                    <div class="overlay" data-overlay></div>
+
+                    <section class="testimonials-modal">
+
+                        <button class="modal-close-btn" data-modal-close-btn>
+                            <ion-icon name="close-outline"></ion-icon>
+                        </button>
+
+                        <div class="modal-img-wrapper">
+                            <figure class="modal-avatar-box">
+                                <img src="./assets/images/avatar-1.png" alt="Muhammad Hassan Zahid" width="80"
+                                    data-modal-img>
+                            </figure>
+
+                            <img src="./assets/images/icon-quote.svg" alt="quote icon">
+                        </div>
+
+                        <div class="modal-content">
+
+                            <h4 class="h3 modal-title" data-modal-title>Muhammad Hassan Zahid</h4>
+
+                            <time datetime="2021-06-14">23 December, 2024</time>
+
+                            <div data-modal-text>
+                                <p>
+                                    Collaborating with Anam on our Final Year Project was an exceptional experience.
+                                    She brought innovative
+                                    ideas, dedication, and technical expertise to the table, ensuring our project
+                                    stood out. Beyond being a
+                                    great teammate, Anam is also a wonderful friend whose support made the journey
+                                    enjoyable and rewarding.
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </section>
+
+                </div>
+
+                <section class="clients">
+
+                    <!-- <h3 class="h3 clients-title">Communities</h3> -->
+
+                    <!-- <ul class="clients-list has-scrollbar">
+
+                        <li class="clients-item">
+                            <a href="#">
+                                <img src="./assets/images/logo-1-color.png" alt="client logo">
+                            </a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#">
+                                <img src="./assets/images/logo-2-color.png" alt="client logo">
+                            </a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#">
+                                <img src="./assets/images/logo-3-color.png" alt="client logo">
+                            </a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#">
+                                <img src="./assets/images/logo-4-color.png" alt="client logo">
+                            </a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#">
+                                <img src="./assets/images/logo-5-color.png" alt="client logo">
+                            </a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#">
+                                <img src="./assets/images/logo-6-color.png" alt="client logo">
+                            </a>
+                        </li>
+
+                    </ul> -->
+
+                </section>
+
+            </article>
+
+            <article class="resume" data-page="resume">
+
+                <header>
+                    <h2 class="h2 article-title">Resume</h2>
+                </header>
+                <section class="download-resume">
+                    <button class="form-btn" type="submit" onclick="downloadResume()">
+                        <ion-icon name="download"></ion-icon>
+                        <span>Download</span>
+                    </button>
+                </section>
+                <!-- Education Section -->
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="book-outline"></ion-icon>
+                        </div>
+                        <h3 class="h3">Education</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Aptech Learning Center (NN) Karachi
+                            </h4>
+                            <span>Jan. 2022 - Jan. 2025</span>
+                            <p class="timeline-text">Software Engineering ( Half - Bachelor's Degree)</p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Govrtment Islamia Arts & Commerce College (Karachi, Pakistan)</h4>
+                            <span>Sep. 2021 - May 2023</span>
+                            <p class="timeline-text">Intermediate in Commerce</p>
+                        </li>
+                    </ol>
+                </section>
+
+                <!-- Experience Section -->
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="briefcase-outline"></ion-icon>
+                        </div>
+                        <h3 class="h3">Experience</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+                        <!-- <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Software Development (Onsite)</h4>
+                            <span>April 2024 - Present</span>
+                            <p class="timeline-text">
+                                • Developed a Full Stack E-Commerce website using React.Js.<br>
+                                • Worked on Data Validation and Correction in PostgreSQL.
+                            </p>
+                        </li> -->
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">.NET Programmer (Onsite)</h4>
+                            <span>April 2024 - Present</span>
+                            <p class="timeline-text">
+                                • Specialized in developing robust applications using C# and DevExpress controls.<br>
+                                • Integrated data-driven solutions, optimizing business processes and enhancing user interfaces.<br>
+                                • Implemented SQL Server queries and managed DataTables to improve database performance.<br>
+                                • Debugged and troubleshot software issues, ensuring smooth functionality of custom-developed features.<br>
+                                • Led the development of dynamic forms and reports, streamlining workflows for the purchasing process.<br>
+                                • Utilized Blazor and Xamarin for seamless integration of web and mobile applications.
+                            </p>
+                        </li>
+                        
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Supply Chain Management (1st Step Shoes & Bags)</h4>
+                            <span>May 2022 - Feb. 2024</span>
+                            <p class="timeline-text">
+                                • Managed inventory and supply chain operations, ensuring timely delivery of products.<br>
+                                • Coordinated with vendors and suppliers to streamline the procurement process.<br>
+                                • Analyzed stock levels and forecasted demand to optimize purchasing decisions.<br>
+                                • Worked closely with the sales and marketing teams to align supply with market needs.<br>
+                                • Implemented efficient tracking systems to improve logistics and reduce delays.<br>
+                                • Contributed to process improvements, helping reduce operational costs and increase efficiency.
+                            </p>
+                        </li>
+                        
+                    </ol>
+                </section>
+
+                <!-- Technical Skills Section -->
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="code-slash-outline"></ion-icon>
+                        </div>
+                        <h3 class="h3">Technical Skills</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Languages</h4>
+                            <p class="timeline-text">Python, C#, SQL, JavaScript, HTML/CSS</p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Frameworks</h4>
+                            <p class="timeline-text">.NET, WinForms, React.Js</p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Developer Tools</h4>
+                            <p class="timeline-text">Git, Google Cloud Platform, VS Code, Visual Studio, SQL Server</p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Libraries</h4>
+                            <p class="timeline-text">pandas, NumPy, Matplotlib, Tkinter, OpenCV</p>
+                        </li>
+                    </ol>
+                </section>
+
+                <!-- Projects Section -->
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="layers-outline"></ion-icon>
+                        </div>
+                        <h3 class="h3">Projects</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">E-Book Website</h4>
+                            <span>July 2023 - Aug. 2023</span>
+                            <p class="timeline-text">
+                                • Developed a dynamic E-Book website using PHP and MySQL for efficient content management.<br>
+                                • Designed and implemented a user-friendly interface for browsing, searching, and purchasing e-books.<br>
+                                • Integrated a secure authentication system for user accounts and payment processing.<br>
+                                • Managed the backend database using MySQL to store book details, user information, and transaction history.<br>
+                                • Optimized website performance and ensured responsiveness across devices.<br>
+                                • Implemented features for book recommendations, reviews, and ratings to enhance user engagement.
+                            </p>
+                        </li>
+                        
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Sphere Management System</h4>
+                            <span>Sep. 2024 - Oct. 2024</span>
+                            <p class="timeline-text">
+                                • Developed a Sphere Management System using the MERN stack (MongoDB, Express, React, Node.js) for seamless web application functionality.<br>
+                                • Utilized Expo for building and deploying a cross-platform mobile app for Android and iOS.<br>
+                                • Designed and implemented a responsive frontend using React to manage sphere-related data.<br>
+                                • Integrated MongoDB for real-time data storage and retrieval, ensuring scalability and performance.<br>
+                                • Developed backend API endpoints with Node.js and Express for smooth data interaction between frontend and database.<br>
+                                • Focused on user authentication, role-based access, and real-time updates to enhance user experience.<br>
+                                • Deployed the application on Expo, ensuring compatibility and easy updates for mobile users.
+                            </p>
+                        </li>
+                        
+                    </ol>
+                </section>
+
+                <!-- Certifications Section -->
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="ribbon-outline"></ion-icon>
+                        </div>
+                        <h3 class="h3">Certifications</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Web Development Certification</h4>
+                            <span>July 2024 - Sep. 2024</span>
+                            <p class="timeline-text">
+                                • Completed an intensive certification program in Web Development, focusing on both frontend and backend technologies.<br>
+                                • Gained expertise in HTML, CSS, JavaScript, and modern frameworks like React.<br>
+                                • Learned backend development using Node.js and Express, with database management using MongoDB.<br>
+                                • Worked on real-world projects, including responsive website designs and full-stack applications.<br>
+                                • Strengthened problem-solving and debugging skills by completing hands-on coding exercises.<br>
+                                • Received practical training in deploying applications and optimizing performance for web projects.
+                            </p>
+                        </li>
+                    </ol>
+                    
+                </section>
+
+                <!-- Extracurricular Activities Section -->
+                <!-- <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="people-outline"></ion-icon>
+                        </div>
+                        <h3 class="h3">Extracurricular Activities</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Project Coordinator</h4>
+                            <span>Mar. 2024 - Present</span>
+                            <p class="timeline-text">Actively coordinating technical projects under the UET-ACM Student
+                                Chapter Lahore.</p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Marketing Lead</h4>
+                            <span>Jan. 2024 - Present</span>
+                            <p class="timeline-text">Leading marketing initiatives and campaigns for Notion Lahore.</p>
+                        </li>
+                    </ol>
+                </section> -->
+
+            </article>
+
+
+            <article class="portfolio" data-page="portfolio">
+
+                <header>
+                    <h2 class="h2 article-title">Portfolio</h2>
+                </header>
+
+                <section class="projects">
+
+                    <ul class="filter-list">
+
+                        <li class="filter-item">
+                            <button class="active" data-filter-btn>All</button>
+                        </li>
+
+                        <li class="filter-item">
+                            <button data-filter-btn>HTML /CSS</button>
+                        </li>
+
+                        <li class="filter-item">
+                            <button data-filter-btn>PHP MySQL</button>
+                        </li>
+
+                        <li class="filter-item">
+                            <button data-filter-btn>Web development</button>
+                        </li>
+
+                    </ul>
+
+                    <div class="filter-select-box">
+
+                        <button class="filter-select" data-select>
+
+                            <div class="select-value" data-selecct-value>Select category</div>
+
+                            <div class="select-icon">
+                                <ion-icon name="chevron-down"></ion-icon>
+                            </div>
+
+                        </button>
+
+                        <ul class="select-list">
+
+                            <li class="select-item">
+                                <button data-select-item>All</button>
+                            </li>
+
+                            <li class="select-item">
+                                <button data-select-item>HTML /CSS</button>
+                            </li>
+
+                            <li class="select-item">
+                                <button data-select-item>PHP MySQL</button>
+                            </li>
+
+                            <li class="select-item">
+                                <button data-select-item>Web development</button>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                    <ul class="project-list">
+
+                        <li class="project-item  active" data-filter-item data-category="web development">
+                            <a href="https://github.com/asifanas194/Sphere-Managmenet-System" target="_blank">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./assets/images/Home.PNG" alt="E-Commerce" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Sphere-Managmenet-System</h3>
+
+                                <p class="project-category">Web development</p>
+
+                            </a>
+                        </li>
+
+
+                        <li class="project-item  active" data-filter-item data-category="PHP MySQL">
+                            <a href="https://github.com/asifanas194/E-Book" target="_blank">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./assets/images/e-book.png" alt="student portal" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">E-Book</h3>
+
+                                <p class="project-category">PHP MySQL</p>
+
+                            </a>
+                        </li>
+                        
+                        <li class="project-item  active" data-filter-item data-category="HTML /CSS">
+                            <a href="https://github.com/asifanas194/My-Karachi" target="_blank">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./assets/images/karchi.PNG" alt="Cafe" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">My Karachi</h3>
+
+                                <p class="project-category">HTML CSS JavaScript</p>
+
+                            </a>
+                        </li>
+
+                        <li class="project-item  active" data-filter-item data-category="HTML /CSS">
+                            <a href="https://github.com/asifanas194/Charcoal-Inspired-Clothing-Website-Clone-HTML-CSS-JavaScript" target="_blank">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./assets/images/Capture.PNG" alt="Cafe" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Charcoal Inspired Clothing Clone</h3>
+
+                                <p class="project-category">HTML CSS JavaScript</p>
+
+                            </a>
+                        </li>
+                    </ul>
+
+                </section>
+
+            </article>
+
+            <article class="contact" data-page="contact">
+
+                <header>
+                    <h2 class="h2 article-title">Contact</h2>
+                </header>
+
+                <section class="mapbox" data-mapbox>
+                    <figure>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17093.613139720223!2d67.0223113123597!3d24.915248357046178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33fbd469d9bcd%3A0x749325c6e39952f3!2sNazimabad%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!5e1!3m2!1sen!2sus!4v1735275860354!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                            width="400" height="300" loading="lazy"></iframe>
+                    </figure>
+                </section>
+
+                <section class="contact-form">
+                    <h3 class="h3 form-title">Contact Form</h3>
+                    <form action="#" class="form" data-form>
+                        <div class="input-wrapper">
+                            <input type="text" name="fullname" class="form-input" placeholder="Full name" required
+                                data-form-input>
+
+                            <input type="email" name="email" class="form-input" placeholder="Email address" required
+                                data-form-input>
+                        </div>
+
+                        <textarea name="message" class="form-input" placeholder="Your Message" required
+                            data-form-input></textarea>
+
+                        <button class="form-btn" type="submit" disabled data-form-btn>
+                            <ion-icon name="paper-plane"></ion-icon>
+                            <span>Send Message</span>
+                        </button>
+
+                    </form>
+
+                </section>
+
+            </article>
+
+        </div>
+
+    </main>
+    <script src="./assets/js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
